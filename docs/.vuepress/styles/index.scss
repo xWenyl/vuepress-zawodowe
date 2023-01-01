@@ -1,0 +1,21 @@
+html.dark {
+  // brand colors
+  --c-brand: hsl(2, 48%, 49%);
+  --c-brand-light: hsl(2, 48%, 44%);
+
+  // background colors
+  --c-bg: hsl(225, 20%, 10%);
+  --c-bg-light: hsl(225, 20%, 12%);
+  --c-bg-lighter: hsl(225, 20%, 11%);
+  --c-bg-dark: hsl(225, 18%, 15%);
+  --c-bg-darker: hsl(225, 21%, 17%);
+
+  // text colors
+  --c-text: #c8d3e1;
+  --c-text-light: #b5c2d7;
+  --c-text-lighter: #abb8cf;
+  --c-text-lightest: #a1afc8;
+
+  --c-border: #3e4c5a;
+  --c-border-dark: #34404c;
+}
