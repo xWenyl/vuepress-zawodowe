@@ -16,28 +16,28 @@ export default {
 
   theme: defaultTheme({
     navbar: [
-      // NavbarItem
       {
         text: "INF.03",
         link: "/inf03/",
       },
-      // NavbarGroup
+
       {
         text: "INF.04",
         link: "/inf04",
       },
-      // string - page file path
     ],
     sidebar: {
       "/inf04/": [
         {
           text: "Egzaminy INF.04",
         },
+
         {
           text: "Arkusze",
           collapsible: true,
           children: ["/inf04/02220622/"],
         },
+
         {
           text: "Rodzaje zadań",
           collapsible: true,
