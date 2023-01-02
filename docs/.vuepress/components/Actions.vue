@@ -1,16 +1,16 @@
 <template>
   <div class="menu-container">
-    <a href="inf03">
+    <router-link to="/inf03">
       <h2>INF.03</h2>
       <p>
         Tworzenie i administrowanie stronami i aplikacjami internetowymi oraz
         bazami danych.
       </p>
-    </a>
-    <a href="inf04/">
+    </router-link>
+    <router-link to="/inf04/">
       <h2>INF.04</h2>
       <p>Projektowanie, programowanie i testowanie aplikacji.</p>
-    </a>
+    </router-link>
   </div>
 </template>
 
