@@ -18,7 +18,7 @@
 .menu-container {
   margin-top: 3rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(385px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
   gap: 1.5rem;
 
   a {
