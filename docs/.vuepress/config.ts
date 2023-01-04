@@ -23,13 +23,15 @@ export default {
 
       {
         text: "INF.04",
-        link: "/inf04",
+        link: "/inf04/",
       },
     ],
     sidebar: {
       "/inf04/": [
         {
           text: "Egzaminy INF.04",
+          link: "/inf04/",
+          children: [],
         },
 
         {
