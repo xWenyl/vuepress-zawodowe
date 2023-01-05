@@ -43,7 +43,7 @@ export default {
         {
           text: "Rodzaje zadań",
           collapsible: true,
-          children: [],
+          children: ["/inf04/aplikacjewebowe/"],
         },
       ],
     },
