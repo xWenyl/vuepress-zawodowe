@@ -1,6 +1,6 @@
 html.dark {
   // brand colors
-  --c-brand: hsl(181, 69%, 49%);
+  --c-brand: hsl(181, 49%, 49%);
   --c-brand-light: hsl(181, 69%, 44%);
 
   // background colors
@@ -18,4 +18,9 @@ html.dark {
 
   --c-border: #3e4c5a;
   --c-border-dark: #34404c;
+}
+
+:root {
+  --c-brand: hsl(181, 49%, 39%);
+  --c-brand-light: hsl(181, 69%, 34%);
 }
