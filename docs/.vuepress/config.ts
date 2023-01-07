@@ -37,7 +37,7 @@ export default {
         {
           text: "Arkusze",
           collapsible: true,
-          children: ["/inf04/02220622/"],
+          children: ["/inf04/02sj2022/", "/inf04/01sj2022"],
         },
 
         {

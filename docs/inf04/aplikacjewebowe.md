@@ -1,5 +1,9 @@
 # Aplikacje webowe
 
+## Poprzednie zadania
+
+["Kursy react"](./02sj2022.md/#aplikacja-webowa)
+
 ## Porady React
 
 Wypisanie elementów z tablicy za pomocą metody `.map()`
