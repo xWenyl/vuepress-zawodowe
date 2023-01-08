@@ -1,10 +1,20 @@
-# Aplikacje webowe
+# Aplikacje webowe (React)
+
+## Utworzenie aplikacji
+1. Jeśli nie masz zainstalowanego pobierz [Node](https://nodejs.org/en/download/)
+2. W terminalu wpisz komendę `npm i create-react-app –g`
+3. Utwórz folder REACT na dysku C
+4. W folderze REACT wpisz komendę `create-react-app hello`
+5. Przejdź do folderu projektu `hello` komendą `cd hello`
+6. Wpisz komendę `npm start`, aby uruchomić serwer deweloperski
+7. W wyniku komendy uruchomi się przeglądarka z adresem `localhost:3000`
+
 
 ## Poprzednie zadania
 
-["Kursy react"](./02sj2022.md/#aplikacja-webowa)
+["Zadanie kursy"](./02sj2022.md/#aplikacja-webowa)
 
-## Porady React
+## Porady
 
 Wypisanie elementów z tablicy za pomocą metody `.map()`
 ```jsx
