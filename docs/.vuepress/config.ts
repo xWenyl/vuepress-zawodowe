@@ -46,6 +46,19 @@ export default {
           children: ["/inf04/aplikacjewebowe/"],
         },
       ],
+      "/inf03/": [
+        {
+          text: "Egzaminy INF.04",
+          link: "/inf03/",
+          children: [],
+        },
+
+        {
+          text: "Arkusze",
+          collapsible: true,
+          children: ["/inf03/01sl2022/"],
+        },
+      ],
     },
   }),
 };
