@@ -12,7 +12,7 @@
 
 ## Poprzednie zadania
 
-["Zadanie kursy"](./02sj2022.md/#aplikacja-webowa)
+["Zadanie kursy"](./02sl2022.md/#aplikacja-webowa)
 
 ## Porady
 
