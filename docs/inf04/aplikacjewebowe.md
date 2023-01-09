@@ -9,10 +9,29 @@
 6. Wpisz komendę `npm start`, aby uruchomić serwer deweloperski
 7. W wyniku komendy uruchomi się przeglądarka z adresem `localhost:3000`
 
+::: tip Porada
+Przed rozpoczęciem pracy nad aplikacją warto usunąć niepotrzebny kod z pliku `App.js`
+:::
+<CodeGroup>
+  <CodeGroupItem title="App.js">
+
+```jsx
+import "./App.css";
+
+function App() {
+  return <div className="App">
+
+  </div>;
+}
+
+export default App;
+```
+  </CodeGroupItem>
+</CodeGroup>
 
 ## Poprzednie zadania
 
-["Zadanie kursy"](./02sl2022.md/#aplikacja-webowa)
+["Zadanie kursy"](./02sj2022.md/#aplikacja-webowa) - 02 | Sesja letnia 2022
 
 ## Porady
 
