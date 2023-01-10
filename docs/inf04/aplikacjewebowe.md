@@ -31,7 +31,7 @@ export default App;
 
 ## Poprzednie zadania
 
-["Zadanie kursy"](./02sj2022.md/#aplikacja-webowa) - 02 | Sesja letnia 2022
+["Zadanie kursy"](./02sl2022.md/#aplikacja-webowa) - 02 | Sesja letnia 2022
 
 ## Porady
 
