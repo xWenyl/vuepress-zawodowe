@@ -1,5 +1,10 @@
 # Egzaminy INF.04
 
+### Wykorzystywane technologie
+- Aplikacje konsolowe - Python
+- Aplikacje webowe - React
+- Aplikacje mobilne - Android Studio (Kotlin)
+
 ### Dostępne Arkusze:
 
 [02 | Sesja letnia 2022](/inf04/02sl2022.md)  
