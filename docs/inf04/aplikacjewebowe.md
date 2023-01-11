@@ -1,5 +1,7 @@
 # Aplikacje webowe (React)
+## Poprzednie zadania
 
+02 | Sesja letnia 2022 - [Kursy](./02sl2022.md/#aplikacja-webowa)
 ## Utworzenie aplikacji
 1. Jeśli nie masz zainstalowanego pobierz [Node](https://nodejs.org/en/download/)
 2. W terminalu wpisz komendę `npm i create-react-app –g`
@@ -29,9 +31,6 @@ export default App;
   </CodeGroupItem>
 </CodeGroup>
 
-## Poprzednie zadania
-
-["Zadanie kursy"](./02sl2022.md/#aplikacja-webowa) - 02 | Sesja letnia 2022
 
 ## Porady
 
