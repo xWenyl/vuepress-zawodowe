@@ -23,6 +23,8 @@ html.dark {
 :root {
   --c-brand: hsl(181, 49%, 39%);
   --c-brand-light: hsl(181, 69%, 34%);
+
+  scroll-behavior: smooth;
 }
 
 span.number {
