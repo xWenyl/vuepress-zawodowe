@@ -45,7 +45,7 @@ export default {
         {
           text: "Rodzaje zadań",
           collapsible: true,
-          children: ["/inf04/aplikacjekonsolowe/", "/inf04/aplikacjewebowe/"],
+          children: ["/inf04/aplikacjekonsolowe/", "/inf04/aplikacjewebowe/", "/inf04/aplikacjemobilne"],
         },
       ],
       "/inf03/": [
