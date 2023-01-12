@@ -44,8 +44,11 @@ export default App;
 Komponent to niezależna, wielorazowego użytku część kodu. Może to być przycisk, tabela, formularz, cokolwiek zadecydujemy.
 Standardem jest pisanie komponentów funkcyjnych i nadawanie im nazw wielkią literą.
 
-Przykład komponentu zdefiniowanego w pliku Hello.js:
+Przykład komponentu zdefiniowanego w pliku Hello.js i użytego w App.js:
 
+<CodeGroup>
+  <CodeGroupItem title="Hello.js">
+  
 ```jsx
 function Hello() {
     return (
@@ -58,9 +61,12 @@ function Hello() {
 }
 
 export default Hello;
+
 ```
 
-Przykładowe użycie w App.js:
+  </CodeGroupItem>
+
+  <CodeGroupItem title="App.js">
 
 ```jsx
 // Wymagany jest import komponentu
@@ -77,6 +83,9 @@ function App() {
 
 export default App;
 ```
+
+  </CodeGroupItem>
+</CodeGroup>
 
 ### `useState()`
 
