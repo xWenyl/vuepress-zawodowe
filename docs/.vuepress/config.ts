@@ -50,7 +50,7 @@ export default {
       ],
       "/inf03/": [
         {
-          text: "Egzaminy INF.04",
+          text: "Egzaminy INF.03",
           link: "/inf03/",
           children: [],
         },
@@ -59,6 +59,12 @@ export default {
           text: "Arkusze",
           collapsible: true,
           children: ["/inf03/01sl2022/"],
+        },
+
+        {
+          text: "Rodzaje zadań",
+          collapsible: true,
+          children: ["/inf03/rodzaje-zadan/bazy-danych/", "/inf03/rodzaje-zadan/skrypt-php/", "/inf03/rodzaje-zadan/skrypt-js/", "/inf03/rodzaje-zadan/obrobka-grafiki.md"],
         },
       ],
     },
