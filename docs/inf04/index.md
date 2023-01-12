@@ -12,4 +12,6 @@
 
 
 ### Rodzaje zadań:
-[Aplikacje webowe](/inf04/aplikacjewebowe.md)
+- [Aplikacje konsolowe](/inf04/aplikacjekonsolowe.md)  
+- [Aplikacje webowe](/inf04/aplikacjewebowe.md)  
+- [Aplikacje mobilne](/inf04/aplikacjemobilne.md)  
