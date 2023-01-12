@@ -1,0 +1,1 @@
+# Obróbka grafiki
