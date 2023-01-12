@@ -15,6 +15,8 @@ export default {
   ],
 
   theme: defaultTheme({
+    contributors: false,
+    lastUpdatedText: "Ostatnia zmiana",
     navbar: [
       {
         text: "INF.03",
