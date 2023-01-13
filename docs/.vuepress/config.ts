@@ -64,7 +64,7 @@ export default {
         {
           text: "Rodzaje zadań",
           collapsible: true,
-          children: ["/inf03/rodzaje-zadan/bazy-danych/", "/inf03/rodzaje-zadan/skrypt-php/", "/inf03/rodzaje-zadan/skrypt-js/", "/inf03/rodzaje-zadan/obrobka-grafiki.md"],
+          children: ["/inf03/rodzaje-zadan/bazy-danych/", "/inf03/rodzaje-zadan/skrypt-php/", "/inf03/rodzaje-zadan/skrypt-js/", "/inf03/rodzaje-zadan/obrobka-grafiki/"],
         },
 
         {

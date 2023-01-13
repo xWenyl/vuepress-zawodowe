@@ -13,7 +13,7 @@
 
 ## Rodzaje zadań
 
-- [Baza danych](/inf03/rodzaje-zadan/bazy-danych.md)
-- [Skrypt PHP](/inf03/rodzaje-zadan/skrypt-php.md)
-- [Skrypt JavaScript](/inf03/rodzaje-zadan/skrypt-js.md)
-- [Obróbka grafiki](/inf03/rodzaje-zadan/obrobka-grafiki.md)
+- [Baza danych](/inf03/rodzaje-zadan/bazy-danych/)
+- [Skrypt PHP](/inf03/rodzaje-zadan/skrypt-php/)
+- [Skrypt JavaScript](/inf03/rodzaje-zadan/skrypt-js/)
+- [Obróbka grafiki](/inf03/rodzaje-zadan/obrobka-grafiki/)
