@@ -1,6 +1,6 @@
 <template>
   <div class="menu-container">
-    <router-link to="/inf03">
+    <router-link to="/inf03/">
       <h2>INF.03</h2>
       <p>
         Tworzenie i administrowanie stronami i aplikacjami internetowymi oraz
