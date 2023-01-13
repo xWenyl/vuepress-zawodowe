@@ -58,13 +58,19 @@ export default {
         {
           text: "Arkusze",
           collapsible: true,
-          children: ["/inf03/01sl2022/"],
+          children: ["/inf03/arkusze/2022-lato-wersja-1/"],
         },
 
         {
           text: "Rodzaje zadań",
           collapsible: true,
           children: ["/inf03/rodzaje-zadan/bazy-danych/", "/inf03/rodzaje-zadan/skrypt-php/", "/inf03/rodzaje-zadan/skrypt-js/", "/inf03/rodzaje-zadan/obrobka-grafiki.md"],
+        },
+
+        {
+          text: "Wskazówki i pomoc",
+          collapsible: true,
+          children: ["/inf03/wskazowki-pomoc/tworzenie-import-bazy/"],
         },
       ],
     },

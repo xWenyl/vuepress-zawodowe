@@ -9,7 +9,7 @@
 
 ## Dostępne arkusze
 
-- [<span class="number">01</span> | Sesja letnia 2022](/inf03/01sl2022.md)
+- [<span class="number">01</span> | Sesja letnia 2022](/inf03/arkusze/2022-lato-wersja-1.md)
 
 ## Rodzaje zadań
 
