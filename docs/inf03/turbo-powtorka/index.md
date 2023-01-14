@@ -1,1 +1,1 @@
-# Turbo powtórka INF.03 - egzamin praktyczny
+# Turbo powtórka - egzamin praktyczny

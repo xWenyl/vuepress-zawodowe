@@ -25,7 +25,7 @@ export default {
   theme: defaultTheme({
     contributors: false,
     lastUpdatedText: "Ostatnia zmiana",
-    editLinkText: "Edytuj strone",
+    editLinkText: "Edytuj stronę",
     docsDir: "docs",
     repo: "https://github.com/xWenyl/vuepress-zawodowe",
     navbar: [
