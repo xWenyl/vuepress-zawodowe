@@ -1,6 +1,10 @@
 import { getDirname, path } from "@vuepress/utils";
 import registerComponentsPlugin from "@vuepress/plugin-register-components";
 import { defaultTheme } from "@vuepress/theme-default";
+import { copyCodePlugin } from "vuepress-plugin-copy-code2";
+import { removeHtmlExtensionPlugin } from "vuepress-plugin-remove-html-extension";
+
+
 const __dirname = getDirname(import.meta.url);
 
 export default {
@@ -12,6 +16,10 @@ export default {
         Actions: path.resolve(__dirname, "./components/Actions.vue"),
       },
     }),
+    copyCodePlugin({
+      pure: true,
+    }),
+    removeHtmlExtensionPlugin(),
   ],
 
   theme: defaultTheme({
@@ -45,7 +53,11 @@ export default {
         {
           text: "Rodzaje zadań",
           collapsible: true,
-          children: ["/inf04/aplikacjekonsolowe/", "/inf04/aplikacjewebowe/", "/inf04/aplikacjemobilne"],
+          children: [
+            "/inf04/aplikacjekonsolowe/",
+            "/inf04/aplikacjewebowe/",
+            "/inf04/aplikacjemobilne",
+          ],
         },
       ],
       "/inf03/": [
@@ -64,7 +76,12 @@ export default {
         {
           text: "Rodzaje zadań",
           collapsible: true,
-          children: ["/inf03/rodzaje-zadan/bazy-danych/", "/inf03/rodzaje-zadan/skrypt-php/", "/inf03/rodzaje-zadan/skrypt-js/", "/inf03/rodzaje-zadan/obrobka-grafiki/"],
+          children: [
+            "/inf03/rodzaje-zadan/bazy-danych/",
+            "/inf03/rodzaje-zadan/skrypt-php/",
+            "/inf03/rodzaje-zadan/skrypt-js/",
+            "/inf03/rodzaje-zadan/obrobka-grafiki/",
+          ],
         },
 
         {
