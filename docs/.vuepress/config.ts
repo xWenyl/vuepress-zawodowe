@@ -25,6 +25,9 @@ export default {
   theme: defaultTheme({
     contributors: false,
     lastUpdatedText: "Ostatnia zmiana",
+    editLinkText: "Edytuj strone",
+    docsDir: "docs",
+    repo: "https://github.com/xWenyl/vuepress-zawodowe",
     navbar: [
       {
         text: "INF.03",
@@ -47,7 +50,10 @@ export default {
         {
           text: "Arkusze",
           collapsible: true,
-          children: ["/inf04/arkusze/2022-lato-wersja-2/", "/inf04/arkusze/2022-lato-wersja-1/"],
+          children: [
+            "/inf04/arkusze/2022-lato-wersja-2/",
+            "/inf04/arkusze/2022-lato-wersja-1/",
+          ],
         },
 
         {
