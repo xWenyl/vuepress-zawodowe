@@ -2,7 +2,7 @@
 
 ## Poprzednie zadania
 
-02 | Sesja letnia 2022 - [Kursy](./02sl2022.md/#aplikacja-webowa)
+02 | Sesja letnia 2022 - [Kursy](../arkusze/2022-lato-wersja-2/#aplikacja-webowa)
 
 ## Utworzenie aplikacji
 

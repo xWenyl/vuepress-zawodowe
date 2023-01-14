@@ -1,10 +1,10 @@
 # 01 | Sesja letnia 2022
 
 ::: details Arkusz
-![1](/inf04/01sl2022/1.png)
-![2](/inf04/01sl2022/2.png)
-![3](/inf04/01sl2022/3.png)
-![4](/inf04/01sl2022/4.png)
+![1](/inf04/2022-lato-wersja-1/1.png)
+![2](/inf04/2022-lato-wersja-1/2.png))
+![3](/inf04/2022-lato-wersja-1/3.png)
+![4](/inf04/2022-lato-wersja-1/4.png)
 :::
 
 ## Aplikacja konsolowa

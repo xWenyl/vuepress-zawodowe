@@ -1,11 +1,11 @@
 # 02 | Sesja letnia 2022
 
 ::: details Arkusz
-![1](/inf04/02sl2022/1.png)
-![2](/inf04/02sl2022/2.png)
-![3](/inf04/02sl2022/3.png)
-![4](/inf04/02sl2022/4.png)
-![5](/inf04/02sl2022/5.png)
+![1](/inf04/2022-lato-wersja-2/1.png)
+![2](/inf04/2022-lato-wersja-2/2.png))
+![3](/inf04/2022-lato-wersja-2/3.png)
+![4](/inf04/2022-lato-wersja-2/4.png)
+![4](/inf04/2022-lato-wersja-2/5.png)
 :::
 
 ## Aplikacja konsolowa
@@ -34,7 +34,7 @@ class Osoba:
 
 ## Aplikacja webowa
 
-Jeśli chcesz wiedzieć jak utworzyć aplikację React zajrzyj [tutaj](/inf04/aplikacjewebowe.md/#utworzenie-aplikacji).
+Jeśli chcesz wiedzieć jak utworzyć aplikację React zajrzyj [tutaj](/inf04/rodzaje-zadan/aplikacjewebowe.md/#utworzenie-aplikacji).
 
 <CodeGroup>
   <CodeGroupItem title="App.js">
