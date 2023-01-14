@@ -47,16 +47,16 @@ export default {
         {
           text: "Arkusze",
           collapsible: true,
-          children: ["/inf04/02sl2022/", "/inf04/01sl2022"],
+          children: ["/inf04/arkusze/2022-lato-wersja-2/", "/inf04/arkusze/2022-lato-wersja-1/"],
         },
 
         {
           text: "Rodzaje zadań",
           collapsible: true,
           children: [
-            "/inf04/aplikacjekonsolowe/",
-            "/inf04/aplikacjewebowe/",
-            "/inf04/aplikacjemobilne",
+            "/inf04/rodzaje-zadan/aplikacjekonsolowe/",
+            "/inf04/rodzaje-zadan/aplikacjewebowe/",
+            "/inf04/rodzaje-zadan/aplikacjemobilne/",
           ],
         },
       ],
