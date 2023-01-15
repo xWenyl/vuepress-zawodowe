@@ -12,7 +12,7 @@
 
 Jeżeli nie wiesz jak utworzyć i zaimportować bazę danych, przejdź [tutaj](/inf03/wskazowki-pomoc/tworzenie-import-bazy)
 
-::: warning Uwaga
+::: warning Informacje o bazie danych
 Zwróć uwagę na informacje zamieszczone powyżej schematu bazy danych, dowiesz się tam co oznaczają wartości pól numerycznych w danych polach
 :::
 
@@ -176,6 +176,11 @@ h3 {
 </CodeGroup>
 
 ## Skrypt połączenia z bazą
+
+::: warning Lokalizacja skryptu
+Zawsze zwracaj uwagę na to w którym miejscu kodu strony ma się znajdować skrypt PHP, a także na to w jakiej formie ma zwracać wyniki, np. element listy lub wiersz tabeli.
+:::
+
 
 <CodeGroup>
   <CodeGroupItem title='Skrypt 1'>
