@@ -36,7 +36,7 @@ W języku SQL wyróżnia się wiele numerycznych typów danych. Jednym z nich je
 ## Witryna internetowa
 
 ::: tip WSKAZÓWKA: Emmety w VS Code
-Edytor kodu Visual Studio Code ma wbudowane wiele przydatnych funkcji takich jak IntelliSense czy Emmet, które ułatwia pracę z kodem. Edytując plik HTML mamy możliwość wygenerowania wstępnego szablonu strony poprzez wpisanie znaku `!`.
+Edytor kodu Visual Studio Code ma wbudowane wiele przydatnych funkcji takich jak IntelliSense czy Emmet, które ułatwiają pracę z kodem. Edytując plik HTML mamy możliwość wygenerowania wstępnego szablonu strony poprzez wpisanie znaku `!`.
 :::
 
 <CodeGroup>
