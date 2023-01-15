@@ -33,7 +33,7 @@ kw4: ALTER TABLE Ryby ADD dobowy_limit TINYINT UNSIGNED;
 W języku SQL wyróżnia się wiele numerycznych typów danych. Jednym z nich jest `TINYINT`, mogący przyjąć tylko 256 wartości. Dodanie atrybutu `UNSIGNED` pozwala przyjmować tylko wartości nieujemne (0-255).
 :::
 
-## Kod HTML i CSS
+## Witryna internetowa
 
 ::: tip Emmety w VS Code
 Edytor kodu Visual Studio Code ma wbudowane wiele przydatnych funkcji takich jak IntelliSense czy Emmet, które ułatwia pracę z kodem. Edytując plik HTML mamy możliwość wygenerowania wstepnego szablonu strony poprzez wpisanie znaku `!`
@@ -174,3 +174,39 @@ h3 {
 
   </CodeGroupItem>
 </CodeGroup>
+
+## Skrypt połączenia z bazą
+
+<CodeGroup>
+  <CodeGroupItem title='Skrypt 1'>
+
+```php
+$pdo = new PDO('mysql:host=localhost;dbname=wedkowanie', 'root', '');
+$sql = 'SELECT nazwa, akwen, wojewodztwo FROM Ryby INNER JOIN Lowisko ON Ryby.id = Lowisko.Ryby_id WHERE rodzaj = 3;';
+$stmt = $pdo->prepare($sql);
+$stmt->execute();
+
+while($rekord = $stmt->fetch(PDO::FETCH_ASSOC)) {
+    echo "<li>{$rekord['nazwa']} pływa w rzece {$rekord['akwen']}, {$rekord['wojewodztwo']}</li>";
+}
+```
+
+  </CodeGroupItem>
+  <CodeGroupItem title='Skrypt 2'>
+
+```php
+$sql = 'SELECT id, nazwa, wystepowanie FROM Ryby WHERE styl_zycia = 1;';
+$stmt = $pdo->prepare($sql);
+$stmt->execute();
+
+while($rekord = $stmt->fetch(PDO::FETCH_ASSOC)) {
+    echo "<tr> <td>{$rekord['id']}</td> <td>{$rekord['nazwa']}</td> <td>{$rekord[wystepowanie]}</td> </tr>";
+}
+
+unset($pdo);
+```
+
+  </CodeGroupItem>
+</CodeGroup>
+
+Opracował: **Wojciech Chrzan aka Worshox**
