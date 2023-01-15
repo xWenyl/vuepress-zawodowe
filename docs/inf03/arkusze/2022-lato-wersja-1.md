@@ -10,10 +10,10 @@
 
 ## Operacje na bazie danych
 
-Jeżeli nie wiesz jak utworzyć i zaimportować bazę danych, przejdź [tutaj](/inf03/wskazowki-pomoc/tworzenie-import-bazy)
+Jeżeli nie wiesz jak utworzyć i zaimportować bazę danych, przejdź [tutaj](/inf03/wskazowki-pomoc/tworzenie-import-bazy).
 
-::: warning Informacje o bazie danych
-Zwróć uwagę na informacje zamieszczone powyżej schematu bazy danych, dowiesz się tam co oznaczają wartości pól numerycznych w danych polach
+::: warning UWAGA: Informacje o bazie danych
+Zwróć uwagę na informacje zamieszczone powyżej schematu bazy danych, dowiesz się tam co oznaczają wartości pól numerycznych w danych polach.
 :::
 
 <CodeGroup>
@@ -29,14 +29,14 @@ kw4: ALTER TABLE Ryby ADD dobowy_limit TINYINT UNSIGNED;
   </CodeGroupItem>
 </CodeGroup>
 
-::: tip Typy numeryczne w MySQL
+::: tip WSKAZÓWKA: Typy numeryczne w MySQL
 W języku SQL wyróżnia się wiele numerycznych typów danych. Jednym z nich jest `TINYINT`, mogący przyjąć tylko 256 wartości. Dodanie atrybutu `UNSIGNED` pozwala przyjmować tylko wartości nieujemne (0-255).
 :::
 
 ## Witryna internetowa
 
-::: tip Emmety w VS Code
-Edytor kodu Visual Studio Code ma wbudowane wiele przydatnych funkcji takich jak IntelliSense czy Emmet, które ułatwia pracę z kodem. Edytując plik HTML mamy możliwość wygenerowania wstepnego szablonu strony poprzez wpisanie znaku `!`
+::: tip WSKAZÓWKA: Emmety w VS Code
+Edytor kodu Visual Studio Code ma wbudowane wiele przydatnych funkcji takich jak IntelliSense czy Emmet, które ułatwia pracę z kodem. Edytując plik HTML mamy możliwość wygenerowania wstępnego szablonu strony poprzez wpisanie znaku `!`.
 :::
 
 <CodeGroup>
@@ -177,8 +177,8 @@ h3 {
 
 ## Skrypt połączenia z bazą
 
-::: warning Lokalizacja skryptu
-Zawsze zwracaj uwagę na to w którym miejscu kodu strony ma się znajdować skrypt PHP, a także na to w jakiej formie ma zwracać wyniki, np. element listy lub wiersz tabeli.
+::: warning UWAGA: Lokalizacja skryptu
+Zawsze zwracaj uwagę na to, w którym miejscu kodu strony ma się znajdować skrypt PHP, a także na to, w jakiej formie ma zwracać wyniki, np. element listy lub wiersz tabeli.
 :::
 
 
