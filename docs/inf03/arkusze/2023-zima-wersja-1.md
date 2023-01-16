@@ -23,10 +23,14 @@ kw4: CREATE VIEW pomieszczenie1 AS SELECT id_sciany, id_farby, liczba_puszek FRO
 
 ## Witryna internetowa
 
+::: tip Elementy różniące się na stronach
+Elementy stron, które są różne dla obu z nich są zaznaczone podświetleniem.
+:::
+
 <CodeGroup>
   <CodeGroupItem title="mieszamy.html">
 
-```html
+```html{27-43}
 <!DOCTYPE html>
 <html lang="pl">
 
@@ -90,7 +94,7 @@ kw4: CREATE VIEW pomieszczenie1 AS SELECT id_sciany, id_farby, liczba_puszek FRO
   </CodeGroupItem>
   <CodeGroupItem title="cena.html">
 
-```html
+```html{27-31}
 <!DOCTYPE html>
 <html lang="pl">
 
@@ -232,14 +236,20 @@ Pamiętaj, aby odpowiednio załączyć skrypt do swoich plików. Możesz dodać 
   <CodeGroupItem title="cena.html">
 
 ```js
-function policz() {
-    let powierzchnia = +document.getElementById('powierzchnia').value;      //pobranie wartości z pola id="powierzchnia" jako liczba (+ z przodu)
-    let wynik = document.getElementById('wynik');                           //ustawienie zmiennej wynik na element strony o id="wynik"
-
-    let zapotrzebowanie = Math.ceil(powierzchnia / 4);                      //obliczenie ilości potrzebnych puszek (Match.ceil() to zaokrąglenie w górę)
-
-    wynik.innerHTML = `Liczba potrzebnych puszek: ${zapotrzebowanie}`;      //wypisanie obliczonejliczby puszek do elementu `wynik`
-}
+<script>
+  function policz() {
+      //pobranie wartości z pola id="powierzchnia" jako liczba (+ z przodu)
+      let powierzchnia = +document.getElementById('powierzchnia').value;
+      //ustawienie zmiennej wynik na element strony o id="wynik"
+      let wynik = document.getElementById('wynik');
+      
+      //obliczenie ilości potrzebnych puszek (Match.ceil() to zaokrąglenie w górę)
+      let zapotrzebowanie = Math.ceil(powierzchnia / 4);
+      
+      //wypisanie obliczonejliczby puszek do elementu `wynik`
+      wynik.innerHTML = `Liczba potrzebnych puszek: ${zapotrzebowanie}`;
+  }
+<script>
 ```
 
   </CodeGroupItem>
