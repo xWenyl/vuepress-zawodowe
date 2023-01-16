@@ -23,8 +23,8 @@ kw4: CREATE VIEW pomieszczenie1 AS SELECT id_sciany, id_farby, liczba_puszek FRO
 
 ## Witryna internetowa
 
-::: tip Elementy różniące się na stronach
-Elementy stron, które są różne dla obu z nich są zaznaczone podświetleniem.
+::: tip WSKAZÓWKA: Podświetlony kod
+Elementy różniące strony są zaznaczone podświetleniem.
 :::
 
 <CodeGroup>
@@ -228,7 +228,7 @@ footer {
 
 ## Skrypt JavaScript
 
-::: warning Załączanie skryptu
+::: warning UWAGA: Załączanie skryptu
 Pamiętaj, aby odpowiednio załączyć skrypt do swoich plików. Możesz dodać go z pliku zewnętrznego za pomocą konstrukcji `<script src="skrypt.js"></script>` lub umieścić go w dowolnym miejscu strony, ja zostawiłem miejsce na skrypt na dole strony, tuż przed zamykającym znacznikiem `</body>`.
 :::
 

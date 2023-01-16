@@ -10,6 +10,8 @@
 ## Dostępne arkusze
 
 - [<span class="number">01</span> | Sesja letnia 2022](/inf03/arkusze/2022-lato-wersja-1.md)
+- [<span class="number">01</span> | Sesja zimowa 2023](/inf03/arkusze/2023-zima-wersja-1.md)
+- [<span class="number">02</span> | Sesja zimowa 2023](/inf03/arkusze/2023-zima-wersja-2.md)
 
 ## Rodzaje zadań
 
