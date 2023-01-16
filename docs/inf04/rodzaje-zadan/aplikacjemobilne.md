@@ -2,4 +2,4 @@
 
 ## Poprzednie zadania
 
-01 | Sesja letnia 2022 - [Rejestracja konta](../arkusze/2022-lato-wersja-1/#aplikacja-mobilna)  
+01 | Sesja letnia 2021 - [Rejestracja konta](../arkusze/2021-lato-wersja-1/#aplikacja-mobilna)  
