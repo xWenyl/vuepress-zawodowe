@@ -76,7 +76,10 @@ export default {
         {
           text: "Arkusze",
           collapsible: true,
-          children: ["/inf03/arkusze/2022-lato-wersja-1"],
+          children: [
+            "/inf03/arkusze/2022-lato-wersja-1",
+            "/inf03/arkusze/2023-zima-wersja-1",
+          ],
         },
 
         {
