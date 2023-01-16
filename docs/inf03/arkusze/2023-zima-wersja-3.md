@@ -30,7 +30,7 @@ Elementy różniące strony są zaznaczone podświetleniem.
 <CodeGroup>
   <CodeGroupItem title="index.html">
 
-```html
+```html{35-38}
 <!DOCTYPE html>
 <html lang="pl">
 
@@ -83,7 +83,7 @@ Elementy różniące strony są zaznaczone podświetleniem.
   </CodeGroupItem>
   <CodeGroupItem title="znajdz.php">
 
-```php
+```php{35-45}
 <!DOCTYPE html>
 <html lang="pl">
 
