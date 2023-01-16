@@ -8,7 +8,8 @@
 ### Dostępne Arkusze:
 
 [<span class="number">02</span> | Sesja letnia 2022](/inf04/arkusze/2022-lato-wersja-2.md)  
-[<span class="number">01</span> | Sesja letnia 2022](/inf04/arkusze/2022-lato-wersja-1.md)
+[<span class="number">01</span> | Sesja letnia 2022](/inf04/arkusze/2022-lato-wersja-1.md)  
+[<span class="number">01</span> | Sesja letnia 2021](/inf04/arkusze/2021-lato-wersja-1.md)
 
 
 ### Rodzaje zadań:
