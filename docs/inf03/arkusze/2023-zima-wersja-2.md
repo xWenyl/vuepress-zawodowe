@@ -194,7 +194,7 @@ footer {
 
 ## Skrypt PHP
 
-::: warning UWAGA Załączanie skryptu
+::: warning UWAGA: Załączanie skryptu
 Pamiętaj, aby odpowiednio załączyć skrypt do swoich plików. Możesz dodać go z pliku zewnętrznego za pomocą konstrukcji `include('skrypt.php');` lub umieścić go w odpowiednim miejscu strony, tam, gdzie ma być wypisana dana wartość.
 :::
 
