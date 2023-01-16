@@ -104,7 +104,9 @@ Elementy różniące strony są zaznaczone podświetleniem.
         <a href="cennik.php">CENNIK</a>
         <table>
 
+          <?php
             // Skrypt PHP
+          ?>
 
         </table>
     </section>
@@ -125,7 +127,7 @@ Elementy różniące strony są zaznaczone podświetleniem.
 ```
 
   </CodeGroupItem>
-  <CodeGroupItem title="styl_1.css">
+  <CodeGroupItem title="styl2.css">
 
 ```css
 /* Wszystkie selektory stylu css */
@@ -207,9 +209,9 @@ Pamiętaj, aby odpowiednio załączyć skrypt do swoich plików. Możesz dodać 
       $polaczenie = mysqli_connect('localhost', 'root', '', 'wynajem');
       $sql = "SELECT * FROM pokoje;";
 
-      $result = mysqli_query($polaczenie, $sql) or die("Problem z odczytem danych!");
+      $wynik = mysqli_query($polaczenie, $sql) or die("Problem z odczytem danych!");
 
-      while ($rekord = mysqli_fetch_row($result)) {
+      while ($rekord = mysqli_fetch_row($wynik)) {
           echo "<tr> <td>{$rekord[0]}</td> <td>{$rekord[1]}</td> <td>{$rekord[2]}</td> </tr>";
       }
 
