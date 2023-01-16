@@ -79,6 +79,7 @@ export default {
           children: [
             "/inf03/arkusze/2022-lato-wersja-1",
             "/inf03/arkusze/2023-zima-wersja-1",
+            "/inf03/arkusze/2023-zima-wersja-2",
           ],
         },
 
