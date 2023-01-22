@@ -4,6 +4,7 @@
 - Aplikacje konsolowe - Python
 - Aplikacje webowe - React
 - Aplikacje mobilne - Android Studio (Kotlin)
+- Aplikacje dekstopowe - Python (Tkinter)
 
 ### Dostępne Arkusze:
 
