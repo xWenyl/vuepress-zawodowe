@@ -49,7 +49,7 @@ print("Posortowana tablica: ", sort.tablica)
 <CodeGroup>
   <CodeGroupItem title="MainActivity.kt">
 
-```kt
+```kotlin
 package com.example.a01sl2022 // W miejsce a01sl2022 wstaw nazwę Twojego projektu
 
 import androidx.appcompat.app.AppCompatActivity
