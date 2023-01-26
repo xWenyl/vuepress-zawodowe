@@ -1,10 +1,12 @@
 # Egzaminy INF.04
 
 ### Wykorzystywane technologie
-- Aplikacje konsolowe - Python
-- Aplikacje webowe - React
-- Aplikacje mobilne - Android Studio (Kotlin)
-- Aplikacje desktopowe - Python (Tkinter)
+| Aplikacja  | Technologia            |
+| -----------| -----------------------|
+| konsolowa  | Python                 |
+| webowa     | React                  |
+| mobilna    | Android Studio (Kotlin)|
+| desktopowa | Python (Tkinter)       |
 
 ### Dostępne Arkusze:
 
