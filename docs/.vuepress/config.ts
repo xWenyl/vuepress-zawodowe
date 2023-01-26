@@ -52,6 +52,7 @@ export default {
           collapsible: true,
           children: [
             "/inf04/arkusze/2023-zima-wersja-2/",
+            "/inf04/arkusze/2023-zima-wersja-1/",
             "/inf04/arkusze/2022-lato-wersja-2/",
             "/inf04/arkusze/2022-lato-wersja-1/",
             "/inf04/arkusze/2021-lato-wersja-1/",
