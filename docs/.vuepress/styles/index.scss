@@ -18,6 +18,11 @@ html.dark {
 
   --c-border: #3e4c5a;
   --c-border-dark: #34404c;
+
+  details {
+  background-color: #212633;
+  padding: 1em 1.6em !important;
+  }
 }
 
 :root {
@@ -25,22 +30,20 @@ html.dark {
   --c-brand-light: hsl(181, 69%, 34%);
 
   scroll-behavior: smooth;
+
+details {
+  background-color: #cccfd5;
+  padding: 1em 1.6em !important;
+}
 }
 
 span.number {
   font-family: monospace;
 }
 
-details {
-  background-color: #212633 !important;
-  padding: 1em 1.6em !important;
-}
+
 
 .custom-container.tip {
   background-color: #00ff0006;
 }
 
-details {
-  background-color: #cccfd5 !important;
-  padding: 1em 1.6em !important;
-}
