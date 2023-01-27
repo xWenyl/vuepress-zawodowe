@@ -17,25 +17,25 @@ pola:
 autor: 00000000000
 """
 class Notatka:
-    __licznik = 0
+    __licznik = 0 # Pole statyczne
 
-    def __init__(self, tytul, tresc):  
+    def __init__(self, tytul, tresc): # Konstruktor
         Notatka.__licznik+=1
         self.__id = Notatka.__licznik
         self._tytul = tytul
         self._tresc = tresc
 
-    def wypiszNotatke(self):
+    def wypiszNotatke(self): # Funkcja wypisująca
         print(self._tytul, ":", self._tresc)
 
-    def wypiszDaneDiagnostyczne(self):
+    def wypiszDaneDiagnostyczne(self): # Funkcja diagnostyczna
         print(self._tytul, ";", self._tresc, ";",
               self.__id, ";", Notatka.__licznik)
-if __name__ == '__main__':
-    n1 = Notatka("N1", "notatka")
+
+    # Sprawdzenie działania
+    n1 = Notatka("N1", "notatka") 
     n1.wypiszNotatke()
-    n1.wypiszDaneDiagnostyczne()
-    n2 = Notatka("N2", "notatka")
+
 ```
 
 ## Aplikacja mobilna
@@ -61,6 +61,8 @@ import android.widget.ListView
 
 class MainActivity : AppCompatActivity() {
 
+
+    // Definicja potrzebnych zmiennych
     val list = arrayListOf<String>("Zakupy: chleb, masło, ser",
         "Do zrobienia: obiad, umyc podłogi",
         "weekend: kino, spacer z psem")
@@ -71,15 +73,18 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
+        // Funkcjonalność adaptera
         listView = findViewById(R.id.listviewTODO)
         adapter = ArrayAdapter(this, R.layout.list_item, list)
         listView.adapter = adapter
     }
 
+    // Funkcja dodająca nasze TODO
     fun dodajTODO(view: View) {
         var userinput = findViewById<EditText>(R.id.userinput).text.toString()
-        list.add(userinput)
-        adapter.notifyDataSetChanged()
+        list.add(userinput) // Dodajemy do listy input użytkownika
+        adapter.notifyDataSetChanged() // Powiadamiamy adapter o update listy
     }
 }
 ```
