@@ -3,13 +3,13 @@ import registerComponentsPlugin from "@vuepress/plugin-register-components";
 import { defaultTheme } from "@vuepress/theme-default";
 import { copyCodePlugin } from "vuepress-plugin-copy-code2";
 import { removeHtmlExtensionPlugin } from "vuepress-plugin-remove-html-extension";
+import { docsearchPlugin } from "@vuepress/plugin-docsearch";
 
 
 const __dirname = getDirname(import.meta.url);
 
 export default {
   title: "Zawodowe.it",
-
   plugins: [
     registerComponentsPlugin({
       components: {
@@ -20,6 +20,21 @@ export default {
       pure: true,
     }),
     removeHtmlExtensionPlugin(),
+    docsearchPlugin({
+      appId: "W86DAXLPHW",
+      apiKey: "a8ce4e11fccc579d11d23f63e6476f65",
+      indexName: "zawodowe",
+      locales: {
+        "/": {
+          placeholder: "Szukaj",
+          translations: {
+            button: {
+              buttonText: "Szukaj",
+            },
+          },
+        },
+      },
+    }),
   ],
 
   theme: defaultTheme({
@@ -28,6 +43,7 @@ export default {
     editLinkText: "Edytuj stronę",
     docsDir: "docs",
     repo: "https://github.com/xWenyl/vuepress-zawodowe",
+
     navbar: [
       {
         text: "INF.03",
