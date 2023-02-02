@@ -26,10 +26,10 @@ export default {
       indexName: "zawodowe",
       locales: {
         "/": {
-          placeholder: "Szukaj",
+          placeholder: "Przeszukaj dokumentacje",
           translations: {
             button: {
-              buttonText: "Szukaj",
+              buttonText: "Przeszukaj dokumentacje",
             },
           },
         },
