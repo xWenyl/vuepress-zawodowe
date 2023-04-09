@@ -20,21 +20,21 @@ export default {
       pure: true,
     }),
     removeHtmlExtensionPlugin(),
-    docsearchPlugin({
-      appId: "W86DAXLPHW",
-      apiKey: "a8ce4e11fccc579d11d23f63e6476f65",
-      indexName: "zawodowe",
-      locales: {
-        "/": {
-          placeholder: "Przeszukaj dokumentacje",
-          translations: {
-            button: {
-              buttonText: "Przeszukaj dokumentacje",
-            },
-          },
-        },
-      },
-    }),
+    // docsearchPlugin({
+    //   appId: "W86DAXLPHW",
+    //   apiKey: "a8ce4e11fccc579d11d23f63e6476f65",
+    //   indexName: "zawodowe",
+    //   locales: {
+    //     "/": {
+    //       placeholder: "Przeszukaj dokumentacje",
+    //       translations: {
+    //         button: {
+    //           buttonText: "Przeszukaj dokumentacje",
+    //         },
+    //       },
+    //     },
+    //   },
+    // }),
   ],
 
   theme: defaultTheme({
